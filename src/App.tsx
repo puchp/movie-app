@@ -16,7 +16,6 @@ const App: React.FC = () => {
         <Route path="/movies" element={<MovieCatalogPage />} />
         <Route path="/movie/:id" element={<MovieDetailPage />} />
         <Route path="/tv-shows" element={<TvCatalogPage />} />
-        <Route path="/tv-show/:id" element={<MovieDetailPage />} />
       </Route>
     </Routes>
   );
